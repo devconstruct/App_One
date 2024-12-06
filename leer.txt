@@ -15,3 +15,43 @@ será responsable de configurar y manejar toda la lógica de navegación en la a
 4.- Error comunes pendientes por instalar
 sudo npm install react-native-chart-kit
 npm install react-native-svg
+
+Conclusión 
+Hasta este paso solo se reeorganizaron las carpetas necesarias para visualizar el contenido
+de la app, se instalaron las dependencias necesarias para la navegación
+y se creó el navegador para manejar la navegación en la app.
+se modifico el archivo App.js para que se muestre el navegador en la app.
+
+
+CONEXION A BASE DE DATOS
+
+1.- Inicia MAMP 
+2.- Asegúrate de que el servidor MySQL esté activo.
+3.- Crea una base de datos llamada "bd_one"
+
+4.- crear un archivo llamado DatabaseService.js en la carpeta src/services que maneje 
+la conexión con la base de datos a través de una API 
+(por ejemplo, usando Node.js y Express).
+
+4.1 Para facilitar la comunicación con el servidor, 
+usaremos axios para hacer las peticiones HTTP.
+
+instalar npm install axios
+
+5.- Configurar el servidor (Node.js + Express)
+
+6.- En primer lugar tenemos que tener configurado un servidor para manejar 
+estas peticiones, puedes hacerlo con Node.js y Express. 
+
+6.1 Entonces vamos a crear un servidor que se encargue de manejar las peticiones.
+En la raiz del proyecto vamos a instalar desde terminal las siguiente lineas de codigo
+
+npm init -y
+npm install express mysql2 cors
+
+Crear el servidor server.js en la raíz del proyecto
+
+7.- Para inicar el servidor , ejecuta el siguiente comando en la terminal
+node server.js
+8.- En el archivo DatabaseService.js, configuramos la conexión a la base de datos.
+
