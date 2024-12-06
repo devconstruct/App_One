@@ -1,0 +1,7 @@
+# App_One
+1.- Para poder crear la app correctamente, se instalaron las siguientes dependencias:
+npm install @react-navigation/native react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated react-native-vector-icons react-native-get-random-values
+npm install @react-navigation/drawer @react-navigation/stack
+npx expo install expo-status-bar
+
+2.- Crear la estructura de las carpetas y archivos para la app.
