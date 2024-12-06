@@ -5,3 +5,13 @@ npm install @react-navigation/drawer @react-navigation/stack
 npx expo install expo-status-bar
 
 2.- Crear la estructura de las carpetas y archivos para la app.
+Crear carpetas en crs
+mkdir assets components navigation screens services styles
+
+3.- Movemos los archivos de screens original a la carpta src/screens
+Creamos el navegador
+será responsable de configurar y manejar toda la lógica de navegación en la aplicación. Como en tu proyecto estás utilizando una combinación de Drawer Navigator y Stack Navigator, este archivo consolidará esa configuración.
+
+4.- Error comunes pendientes por instalar
+sudo npm install react-native-chart-kit
+npm install react-native-svg
